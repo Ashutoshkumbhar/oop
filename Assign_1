@@ -15,7 +15,7 @@ protected:
 public:
     void initialize() {
 
-        customerName = "rohit";
+        customerName = "Ashutosh";
         accountNumber = 129;
         balance = 1000;
         cout<<"customerName :"<<customerName<<endl;
@@ -127,7 +127,7 @@ Choose Account Type:
 1. Savings Account
 2. Current Account
 Enter choice: 1
-customerName :rohit
+customerName :Ashutosh
 accountNumber :129
 Initial Balance :1000
 Enter amount to deposit: 200
