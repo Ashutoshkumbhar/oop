@@ -1,0 +1,33 @@
+#Code:
+#include<iostream>
+using namespace std;
+
+class AddAmount
+{
+    public:
+    int amount=50,Total=0;
+    
+    AddAmount()
+    {
+        cout<<"The Amount in piggy Bank is: "<<amount<<"$"<<endl;
+    }
+    AddAmount(int x)
+    {
+        cout<<"Amount to be  Added to piggy Bank: "<<x<<"$"<<endl;
+        Total=amount+x;
+        cout<<"The Total Amount in Piggy Bank is: "<<Total<<"$"<<endl;
+    }
+
+};
+int main()
+{
+    cout<<"******Yours Piggy Bank******"<<endl;
+    AddAmount();
+    AddAmount(60);
+}
+
+#Output:
+******Yours Piggy Bank******
+The Amount in piggy Bank is: 50$
+Amount to be  Added to piggy Bank: 60$
+The Total Amount in Piggy Bank is: 110$
