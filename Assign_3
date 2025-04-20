@@ -136,24 +136,24 @@ int main() {
 }
 #Output:
 Enter Teacher Details:
-Enter Name: rebecca
+Enter Name: Pradnya mam
 Enter Staff Code: 001
-Enter Subject: lifeskill 
+Enter Subject: cpp 
 Enter Publication: pccoe 
 
 Enter Officer Details:
-Enter Name: rohit
-Enter Staff Code: 029
+Enter Name: Ashutosh
+Enter Staff Code: 032
 Enter Grade: O
 
 Enter Regular Typist Details:
-Enter Name: abhi
-Enter Staff Code: 036
+Enter Name: Yash
+Enter Staff Code: 035
 Enter Typing Speed (words per minute): 70
 
 Enter Casual Typist Details:
-Enter Name: yash 
-Enter Staff Code: 035
+Enter Name: Abhinav 
+Enter Staff Code: 036
 Enter Typing Speed (words per minute): 40
 Enter Daily Wages: 1000
 
