@@ -1,0 +1,42 @@
+#Code:
+#include<iostream>
+using namespace std;
+
+class rectangle
+{
+    public:
+    int Area;
+    int length,breadth;
+
+    rectangle()
+    {
+        cout<<"Enter the length and breadth of rectangle:"<<endl;
+        cin>>length;
+        cin>>breadth;
+        Area=length*breadth;
+        cout<<"The Area with default constructor is: "<<Area;
+    }
+    rectangle(int length,int breadth)
+    {
+        Area=length*breadth;
+        cout<<"\nThe Area with two parameterized constructor is: "<<Area;
+    }
+    rectangle(int x)
+    {
+        Area=x*x;
+        cout<<"\nThe Area with one parameterized constructor is: "<<Area;
+    }
+};
+int main()
+{
+    rectangle();
+    rectangle(5,4);
+    rectangle(3);
+}
+Output:
+Enter the length and breadth of rectangle:
+6
+6
+The Area with default constructor is: 36
+The Area with two parameterized constructor is: 20
+The Area with one parameterized constructor is: 9
