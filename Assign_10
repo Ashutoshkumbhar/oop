@@ -1,0 +1,102 @@
+#Code:
+#include<iostream>
+using namespace std;
+
+class Employee
+{
+    private:
+    int age;
+    int salary1,salary2,newsalary1,newsalary2;
+    int Yearsofservice;
+    string name;
+    public:
+    void EnterdetailsA()
+    {
+        cout<<"Enter the name of Employee 1: "<<endl;
+        cin>>name;
+        cout << "Enter the age of Employee: "<<endl;;
+        cin >> age;
+        cout << "Enter the years of service: "<<endl;
+        cin >> Yearsofservice;
+        cout << "Enter the salary of Employee: "<<endl;
+        cin >> salary1;
+    }
+    void displaydetailA()
+    {
+        cout << "\nEmployee Details:" << endl;
+        cout << "Name: " << name << endl;
+        cout << "Age: " << age << endl;
+        cout << "Years of Service: " << Yearsofservice << endl;
+        cout << "Salary: " << salary1 << endl;
+    }
+    void EnterdetailsB()
+    {
+        cout<<"Enter the name of Employee 2: "<<endl;
+        cin>>name;
+        cout << "Enter the age of Employee: "<<endl;;
+        cin >> age;
+        cout << "Enter the years of service: "<<endl;
+        cin >> Yearsofservice;
+        cout << "Enter the salary of Employee: "<<endl;
+        cin >> salary2;
+    }
+    void displaydetailB()
+    {
+        cout << "\nEmployee Details:" << endl;
+        cout << "Name: " << name << endl;
+        cout << "Age: " << age << endl;
+        cout << "Years of Service: " << Yearsofservice << endl;
+        cout << "Salary: " << salary2 << endl;
+    }
+    void salaryinthousands()
+    {
+        cout<<"Salary in Thousands"<<endl;
+        newsalary1=(salary1)/1000;
+        cout<<"Salary of Employee 1: "<<newsalary1<<endl;
+        newsalary2=(salary2)/1000;
+        cout<<"\nSalary of Employee 2: "<<newsalary2<<endl;
+    }  
+};
+int main()
+{
+    Employee s1;
+    s1.EnterdetailsA();
+    s1.displaydetailA();
+    s1.EnterdetailsB();
+    s1.displaydetailB();
+    s1.salaryinthousands();
+}
+#Output:
+Enter the name of Employee 1: 
+Ashutosh
+Enter the age of Employee:
+26
+Enter the years of service:
+7
+Enter the salary of Employee:
+1200000
+
+Employee Details:
+Name: Ashutosh
+Age: 26
+Years of Service: 7
+Salary: 1200000
+
+Enter the name of Employee 2:
+Rohit
+Enter the age of Employee:
+27
+Enter the years of service:
+8 
+Enter the salary of Employee:
+1300000
+
+Employee Details:
+Name: Rohit
+Age: 27
+Years of Service: 8
+Salary: 1300000
+
+Salary in Thousands
+Salary of Employee 1: 1200
+Salary of Employee 2: 1300
