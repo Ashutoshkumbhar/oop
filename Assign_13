@@ -1,0 +1,89 @@
+#Code:
+#include<iostream>
+using namespace std;
+
+class Marks
+{
+    public:
+    int n,roll,mathmark,physicsmark,chemistrymark,Average;
+    string name;
+    void display()
+    {
+    cout<<"Enter the no of students:"<<endl;
+    cin>>n;
+
+    for(int i=1;i<n+1;i++)
+    {
+        cout<<"Enter the name of student"<<i<<":"<<endl;
+        cin>>name;
+        cout<<"Enter the roll of student"<<i<<":"<<endl;
+        cin>>roll;
+        cout<<"Enter the marks in maths of student"<<i<<":"<<endl;
+        cin>>mathmark;
+        cout<<"Enter the marks in physics of student"<<i<<":"<<endl;
+        cin>>physicsmark;
+        cout<<"Enter the marks in chemistry of student"<<i<<":"<<endl;
+        cin>>chemistrymark;
+        Average=(physicsmark+mathmark+chemistrymark)/3;
+        cout<<"The Average marks of student"<<i<<"are:"<<Average<<endl;
+        cout<<"The marks of student in maths is:"<<mathmark<<endl;
+        cout<<"The marks of student in physics is:"<<physicsmark<<endl;
+        cout<<"The marks of student in maths is:"<<chemistrymark<<endl;
+        cout<<"The Average marks of student are:"<<Average<<endl;
+    }
+    }
+};
+int main()
+{
+   Marks d1;
+   d1.display();
+
+}
+#Output:
+Enter the no of students:
+3
+Enter the name of student1:
+Ashutosh
+Enter the roll of student1:
+1
+Enter the marks in maths of student1:
+100
+Enter the marks in physics of student1:
+100
+Enter the marks in chemistry of student1:
+100
+The Average marks of student1are:100
+The marks of student in maths is:100
+The marks of student in physics is:100
+The marks of student in maths is:100
+The Average marks of student are:100
+Enter the name of student2:
+Rohit
+Enter the roll of student2:
+2
+Enter the marks in maths of student2:
+99
+Enter the marks in physics of student2:
+100
+Enter the marks in chemistry of student2:
+98
+The Average marks of student2are:99
+The marks of student in maths is:99
+The marks of student in physics is:100
+The marks of student in maths is:98
+The Average marks of student are:99
+Enter the name of student3:
+Abhinav
+Enter the roll of student3:
+3
+Enter the marks in maths of student3:
+80
+Enter the marks in physics of student3:
+98
+Enter the marks in chemistry of student3:
+86
+The Average marks of student3are:88
+The marks of student in maths is:80
+The marks of student in physics is:98
+The marks of student in maths is:86
+The Average marks of student are:88
